@@ -1,4 +1,7 @@
+# Local Python Enviroment
 venv/
+
+# Local PyCharm Enviroment
 /.idea/algebra.iml
 /.idea/misc.xml
 /.idea/modules.xml
