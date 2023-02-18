@@ -1,10 +1,11 @@
 from flask import Flask
+from flask import render_template
 
 app = Flask(__name__)
 
 @app.route("/")
 def root_path():
-    return "Hello There - Lets Start Building"
+    return render_template("home.html")
 
 
 if __name__ == "__main__":
